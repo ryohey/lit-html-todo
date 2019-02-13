@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": false,
+    "declaration": true
+  },
+  "exclude": ["node_modules", "**/*.test.ts", "dist"]
+}
