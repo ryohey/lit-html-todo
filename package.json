@@ -1,15 +1,15 @@
 {
   "name": "lit-html-todo",
   "version": "1.0.0",
-  "description": "",
+  "description": "An example todo app implementation with lit-html.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["lit-html", "TypeScript", "WebComponents"],
+  "author": "ryohey",
+  "license": "MIT",
   "devDependencies": {
     "css-loader": "2.1.0",
     "html-webpack-plugin": "3.2.0",
