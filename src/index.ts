@@ -106,16 +106,7 @@ const createStore = <T>(initialState: T) => {
 }
 
 store = createStore({
-  tasks: [
-    {
-      id: uid(),
-      title: "example"
-    },
-    {
-      id: uid(),
-      title: "2"
-    }
-  ],
+  tasks: [],
   selectedTasks: [],
   inputText: ""
 })
